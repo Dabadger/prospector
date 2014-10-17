@@ -33,6 +33,7 @@ function formOptions($con) {
             <h2>Deposit Tool</h2>
             <form method='post' action='prospect.php'>
                 <div>
+                    <p>Select a planet to get started:</p>
                     <select name='planetlist'>
                         <?php formOptions($con); ?>
                     </select>
