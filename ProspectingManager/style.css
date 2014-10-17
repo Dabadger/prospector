@@ -1,0 +1,164 @@
+html {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+}
+
+body {
+    margin: 0;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    min-width: 360px;
+    width: 100%;
+}
+
+h1 {
+    background-color: #566D7E;
+    color: #fff;
+    margin: 0;
+    padding: 20px;
+    font-size: 1.6em;
+}
+
+h2 {
+    background-color: #566D7E;
+    color: #fff;
+    margin: 5px;
+    padding: 5px;
+    font-size: 1.4em;
+    border-radius: 5px;
+}
+
+div.cont {
+    padding: 0 10px;
+    position: relative;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+div.menu {
+    width: 100px;
+    height: 60px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    z-index: 1;
+}
+
+h3.menu {
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    margin: 0;
+    padding: 10px;
+    border: solid 2px #fff;
+    border-radius: 10px;
+    transition: background-color 1s, border 1s;
+}
+div.menu:hover  h3.menu{
+    border: solid 2px #566D7E;
+    background-color: #1A3142;
+    color: #fff;
+}
+
+.menu div {
+    position: fixed;
+    top: 0;
+    right: -210px;
+    padding: 2px;
+    transition: right 1s;
+    width: 200px;
+    border-radius: 10px;
+    background-color: #1A3142;
+    color: #566D7E;
+    height: 100%;
+}
+.menu:hover div {
+    right: 0px;
+}
+
+.menu div h3 {
+    background-color: #566D7E;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    border: solid 2px #1A3142;
+    margin: 5px 0;
+    transition: background-color 1s, border 1s;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu div h3:hover {
+    background-color: #fff;
+    color: #566D7E;
+    border: solid 2px #566D7E;
+}
+
+.sizemirror {
+    width: 30px;
+    display: inline-block;
+}
+
+h3.button, input[type=submit] {
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    margin: 5px;
+    padding: 10px;
+    min-width: 80px;
+    border: solid 2px #1A3142;
+    border-radius: 10px;
+    background-color: #566D7E;
+    display: inline-block;
+    font-weight: bold;
+}
+
+h3.button:hover, input:hover {
+    background-color: #fff;
+    color: #566D7E;
+    border: solid 2px #566D7E;
+}
+
+input[type=text] {
+    padding: 10px;
+    border-radius: 2px;
+    border: solid 1px;
+    cursor: text;
+    margin: 0 5px;
+}
+
+input[type=text].coord {
+    width: 30px;
+    margin: 0 5px;
+}
+
+select {
+    padding: 10px;
+    border-radius: 2px;
+    border: solid 1px;
+    cursor: pointer;
+    font-size: 1em;
+    margin: 0 5px;
+}
+
+select:hover {
+    border-color: #566D7E;
+}
+p.form {
+    display: inline-block;
+}
+
+p.suc {
+    color: #009933;
+}
+
+p.unsuc {
+    color: #CC0000;
+}

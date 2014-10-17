@@ -1,0 +1,168 @@
+div.contpros {
+    padding: 0 10px;
+    position: relative;
+    max-width: 1080px;
+    margin: 0 auto;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    -webkit-justify-content: space-around;
+    -ms-justify-content: space-around;
+    justify-content: space-around;
+}
+
+.map {
+    overflow: scroll;
+    display: none;
+    padding: 5px;
+    max-height: 760px;
+    cursor: all-scroll;
+    width: 100%;
+}
+
+.detail {
+    top: 5px;
+    right: 20px;
+    border: solid 1px;
+    border-radius: 5px;
+    min-width: 100%;
+    margin: 2px;
+    background-color: #566D7E;
+}
+
+.matlist {
+    right: 20px;
+    top: 220px;
+    border: solid 1px;
+    border-radius: 5px;
+    width: 300px;
+    margin: 2px;
+    background-color: #566D7E;
+}
+
+div.prospect {
+    -webkit-align-self: flex-start;
+    -ms-align-self: flex-start;
+    align-self: flex-start;
+    margin: 10px;
+}
+
+#mapbutton {
+    width: 100%;
+}
+
+.cityrow {
+    height: 152px;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;  
+}
+
+.city {
+    width: 150px;
+    height: 150px;
+    border: solid 1px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;  
+}
+
+.city img {
+    position: absolute;
+    right: 11.5px;
+    bottom: 11.5px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    -webkit-user-drag: none;
+    -moz-user-drag: none;
+    -ms-user-drag: none;
+    -o-user-drag: none;
+    user-drag: none;  
+}
+
+.detail p, .matlist p, .city p {
+    color: #fff;
+    padding: 2px 10px;
+    margin: 0;
+}
+
+.city p {
+    background: rgba(0, 0, 0, .4);;
+}
+
+.detail h2, .matlist h2 {
+    margin: 0;
+    border-radius: 0;
+}
+
+.cave {
+    background-image: url('terrain/cave.gif');
+}
+
+.crater {
+    background-image: url('terrain/crater.gif');
+}
+
+.desert {
+    background-image: url('terrain/desert.gif');
+}
+
+.forest {
+    background-image: url('terrain/forest.gif');
+}
+
+.gas {
+    background-image: url('terrain/gas.gif');
+}
+
+.glacier {
+    background-image: url('terrain/glacier.gif');
+}
+
+.grassland {
+    background-image: url('terrain/grassland.gif');
+}
+
+.jungle {
+    background-image: url('terrain/jungle.gif');
+}
+
+.mountain {
+    background-image: url('terrain/mountain.gif');
+}
+
+.ocean {
+    background-image: url('terrain/ocean.gif');
+}
+
+.river {
+    background-image: url('terrain/river.gif');
+}
+
+.rock {
+    background-image: url('terrain/rock.gif');
+}
+
+.swamp {
+    background-image: url('terrain/swamp.gif');
+}
